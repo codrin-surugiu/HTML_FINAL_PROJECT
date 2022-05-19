@@ -51,6 +51,10 @@ body::-webkit-scrollbar {
   color: white;
 }
 
+.nav button a:hover {
+  color: rgba(255, 255, 255, 0.4);
+}
+
 .header {
   color: white;
   background-color: #36311f;
@@ -75,26 +79,25 @@ small:nth-last-child(1) {
   font-size: x-large;
 }
 .article {
-  width: 80%;
-  margin: 0 auto;
   margin-top: 2.5rem;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
 }
 .article h2 {
   margin: 1.5rem;
-  display: flex;
-  align-items: center;
+  font-size: 3rem;
+  font-weight: 400;
 }
 
 #img1 {
-  width: 35rem;
-  height: 35rem;
-  cursor: pointer;
-  background-position: center;
-  background-size: cover;
+  width: 50rem;
+  height: 50rem;
+  margin-top: 1.5rem;
+}
+
+.imgItalianJob {
+  margin: 0 auto;
 }
 #img2 {
   height: 50rem;
