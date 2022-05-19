@@ -44,7 +44,10 @@ body::-webkit-scrollbar {
   align-items: center;
   background-color: transparent;
 }
-
+.active {
+  max-height: 20rem;
+  display: block;
+}
 .nav button a {
   text-decoration: none;
   font-size: x-large;
@@ -74,44 +77,21 @@ small:nth-last-child(1) {
   color: #020300;
   font-size: x-large;
 }
-.article {
+.images {
   width: 80%;
-  margin: 0 auto;
-
-  margin-top: 2.5rem;
   display: flex;
-  flex-direction: column;
+  margin: 0 0.5rem;
+  flex-direction: row;
+  align-items: center;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
 }
-.article h2 {
-  margin: 1.5rem;
-  display: flex;
-  align-items: center;
-}
-
-#img1 {
-  width: 35rem;
-  height: 35rem;
-  cursor: pointer;
-  background-position: center;
-  background-size: cover;
-}
-#img2 {
-  width: 35rem;
-  height: 35rem;
+#imgTopGun {
   cursor: pointer;
   position: relative;
   background-size: cover;
+  margin-top: 1.5rem;
 }
-#img3 {
-  width: 35rem;
-  height: 35rem;
-  cursor: pointer;
-  position: relative;
-  background-size: cover;
-}
-
 .aside-article {
   width: 80%;
   margin: 0 auto;
@@ -172,47 +152,24 @@ small:nth-last-child(1) {
   background-color: #59544b;
   transition: max-height 650ms;
 }
-
 .answer p {
   color: #fff;
-  font-size: 15px;
-  padding: 2rem;
-  text-align: center;
-}
-
-.movieLinkPages {
-  width: 10rem;
   font-size: xx-large;
+  padding: 2rem;
   font-weight: 300;
-  text-decoration: none;
-  border: 1px dashed #7d8ca3;
-  color: white;
 }
 
-.active{
-  display: block;
-  max-height: 20rem;
-}
-
-/* 
 .accordion-item:target .answer {
-  max-height: 20rem;
+  min-height: 47rem;
 }
 
-.accordion-link + .answer {
+/* .accordion-link + .answer {
   display: none;
-}
+} */
 
 .accordion-link.active + .answer {
   display: block;
-} */
-.pre-footer {
-  width: 80%;
-  margin: 0 auto;
-  background-color: #6f6d6d;
-  display: flex;
 }
-
 .footer {
   height: -webkit-fill-available;
   color: white;
