@@ -211,6 +211,29 @@ small:nth-last-child(1) {
   display: block;
   max-height: 20rem;
 }
+.pFromItalianJob {
+  font-weight: 400;
+  font-size: larger;
+}
+.pFromItalianJob p {
+  text-align: justify;
+}
+.pFromTaxiDriver {
+  font-weight: 400;
+  font-size: larger;
+}
+.pFromTaxiDriver p {
+  text-align: justify;
+}
+
+.pFromMissionImpossible {
+  font-weight: 400;
+  font-size: larger;
+}
+
+.pFromMissionImpossible p {
+  text-align: justify;
+}
 
 .pFromTopGun {
   font-weight: 400;
