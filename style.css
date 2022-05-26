@@ -17,6 +17,11 @@ body::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
 }
 
+@font-face {
+  font-family: "MyFonts";
+  src: url("./Fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf");
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -65,8 +70,9 @@ body::-webkit-scrollbar {
 }
 
 .header h1 {
-  font-weight: 400;
   height: 4.5rem;
+  font-weight: 400;
+  font-family: "MyFonts";
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -75,7 +81,7 @@ body::-webkit-scrollbar {
   font-size: small;
 }
 small:nth-last-child(1) {
-  color: #020300;
+  color: #7d8ca3;
   font-size: x-large;
 }
 .article {
@@ -94,6 +100,7 @@ small:nth-last-child(1) {
   width: 50rem;
   height: 50rem;
   margin-top: 1.5rem;
+  border-radius: 10px;
 }
 
 .imgItalianJob {
@@ -103,6 +110,7 @@ small:nth-last-child(1) {
   height: 50rem;
   position: relative;
   margin-top: 1.5rem;
+  border-radius: 10px;
 }
 
 .imgMissionImpossible {
@@ -118,6 +126,7 @@ small:nth-last-child(1) {
   width: 50rem;
   height: 50rem;
   margin-top: 1.5rem;
+  border-radius: 10px;
 }
 
 #imgTopGun {
@@ -125,6 +134,7 @@ small:nth-last-child(1) {
   height: 50rem;
   position: relative;
   margin-top: 1.5rem;
+  border-radius: 10px;
 }
 .imgTopGun {
   margin: 0 auto;
@@ -195,6 +205,7 @@ small:nth-last-child(1) {
   height: 20rem;
   padding: 2rem;
   text-align: center;
+  color: #daf7a6;
 }
 
 .answer a {
