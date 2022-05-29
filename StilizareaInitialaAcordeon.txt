@@ -1,0 +1,78 @@
+.aside-article {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: inherit;
+  display: flex;
+}
+/* .accordion-item {
+  background-color: #000000;
+  border-radius: 1.4rem;
+  margin-top: 10px;
+  width: 75rem;
+}
+
+.accordion-link {
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  background-color: #000000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.flex ul li {
+  font-size: larger;
+}
+.accordion-link h3 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 1rem;
+}
+
+.accordion-link ul {
+  display: flex;
+  align-items: flex-end;
+  list-style-type: none;
+  margin-left: 25px;
+}
+
+.accordion-link li {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.4);
+  padding: 0 0 1px 5px;
+}
+
+.accordion-link div {
+  display: flex;
+  align-items: center;
+} */
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: #59544b;
+  transition: max-height 650ms;
+}
+
+.answer p {
+  height: 20rem;
+  padding: 2rem;
+  text-align: center;
+  color: #daf7a6;
+}
+
+.answer a {
+  width: 10rem;
+  font-size: xx-large;
+  font-weight: 300;
+  text-decoration: none;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}

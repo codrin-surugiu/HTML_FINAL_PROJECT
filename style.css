@@ -146,7 +146,7 @@ small:nth-last-child(1) {
   background-color: inherit;
   display: flex;
 }
-.accordion-item {
+/* .accordion-item {
   background-color: #000000;
   border-radius: 1.4rem;
   margin-top: 10px;
@@ -191,31 +191,31 @@ small:nth-last-child(1) {
 .accordion-link div {
   display: flex;
   align-items: center;
-}
+} */
 
 .answer {
-  max-height: 0;
+  /* max-height: 0; */
   overflow: hidden;
   position: relative;
   background-color: #59544b;
-  transition: max-height 650ms;
+  /* transition: max-height 650ms; */
 }
 
 .answer p {
-  height: 20rem;
-  padding: 2rem;
+  height: 10rem;
+  /* padding: 2rem; */
   text-align: center;
   color: #daf7a6;
 }
 
 .answer a {
-  width: 10rem;
+  /* width: 10rem; */
   font-size: xx-large;
   font-weight: 300;
   text-decoration: none;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
-  color: white;
+  color: #7d8ca3;
 }
 
 .active {
