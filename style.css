@@ -25,10 +25,10 @@ body::-webkit-scrollbar {
 .container {
   width: 80%;
   margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
 }
 
 .nav {
@@ -140,12 +140,11 @@ small:nth-last-child(1) {
   margin: 0 auto;
 }
 .aside-article {
-  width: 80%;
-  margin: 0 auto;
   margin-top: 2rem;
-  background-color: inherit;
   display: flex;
+  flex-direction: column;
 }
+
 /* .accordion-item {
   background-color: #000000;
   border-radius: 1.4rem;
@@ -203,9 +202,10 @@ small:nth-last-child(1) {
 
 .answer p {
   height: 10rem;
-  /* padding: 2rem; */
-  text-align: center;
-  color: #daf7a6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .answer a {
@@ -218,16 +218,19 @@ small:nth-last-child(1) {
   color: #7d8ca3;
 }
 
-.active {
+/* .active {
   display: block;
   max-height: 20rem;
-}
+} */
 .pFromItalianJob {
   font-weight: 400;
   font-size: larger;
 }
 .pFromItalianJob p {
   text-align: justify;
+  height: 23rem;
+  padding: 2rem;
+  color: gold;
 }
 .pFromTaxiDriver {
   font-weight: 400;
@@ -235,6 +238,9 @@ small:nth-last-child(1) {
 }
 .pFromTaxiDriver p {
   text-align: justify;
+  height: 20rem;
+  padding: 2rem;
+  color: gold;
 }
 
 .pFromMissionImpossible {
@@ -244,6 +250,9 @@ small:nth-last-child(1) {
 
 .pFromMissionImpossible p {
   text-align: justify;
+  height: 15rem;
+  padding: 2rem;
+  color: gold;
 }
 
 .pFromTopGun {
@@ -253,10 +262,13 @@ small:nth-last-child(1) {
 
 .pFromTopGun p {
   text-align: justify;
+  text-align: justify;
+  height: 23rem;
+  padding: 2rem;
+  color: gold;
 }
 
 .footer {
-  height: -webkit-fill-available;
   color: white;
   margin-top: 2.5rem;
   background-color: black;
